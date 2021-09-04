@@ -45,6 +45,10 @@
       <HintPath>$(BPDIR)\Plugins\BP-CoreLib.dll</HintPath>
       <SpecificVersion>False</SpecificVersion>
     </Reference>
+    <Reference Include="BPGangs">
+      <HintPath>$(BPDIR)\Plugins\BPGangs.dll</HintPath>
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
     <Reference Include="EmbedIO">
       <HintPath>$(BPDIR)\BrokeProtocol_Data\Managed\EmbedIO.dll</HintPath>
     </Reference>
