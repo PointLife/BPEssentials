@@ -1,6 +1,7 @@
 ﻿using BPEssentials.Enums;
 using BPEssentials.ExtensionMethods;
 using BPEssentials.Utils.Formatter.Chat;
+using BPPlasmaGangs;
 using BrokeProtocol.Collections;
 using BrokeProtocol.Entities;
 using System;
@@ -42,7 +43,7 @@ namespace BPEssentials.Utils
             {
                 try
                 {
-                    return string.Format(new CustomFormatter(), formatter, player.ID, player.username, message);
+                    return string.Format(new CustomFormatter(), formatter, player.ID, player.username, message, player.GetGangTag());
                 }
                 catch (Exception err)
                 {
